@@ -1,0 +1,23 @@
+{
+  "server_list": {
+    "server_try_serial": {
+      "comm": "serial",
+      "port": "/dev/tty0",
+      "stopbits": 1,
+      "bytesize": 8,
+      "parity": "N",
+      "baudrate": 9600,
+      "timeout": 3,
+      "reconnect_delay": 2,
+      "framer": "rtu",
+      "identity": {
+        "VendorName": "pymodbus",
+        "ProductCode": "PM",
+        "VendorUrl": "https://github.com/pymodbus-dev/pymodbus",
+        "ProductName": "pymodbus Server",
+        "ModelName": "pymodbus Server",
+        "MajorMinorRevision": "3.1.0"
+      }
+    }
+  }
+}

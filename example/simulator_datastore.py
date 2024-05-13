@@ -65,6 +65,8 @@ demo_config = {
             },
         },
     },
+    "invalid": [
+    ],
     "write": [
         1,
         3,

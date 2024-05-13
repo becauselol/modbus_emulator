@@ -77,7 +77,9 @@ demo_config = {
         [31, 36],
     ],
     "bits": [
+        1,
         [7, 9],
+        [6, 6],
         {"addr": 2, "value": 0x81},
         {"addr": 3, "value": 17},
         {"addr": 4, "value": 17},

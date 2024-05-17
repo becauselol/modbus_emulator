@@ -66,20 +66,18 @@ demo_config = {
         },
     },
     "invalid": [
+        1,
+        [6, 6],
     ],
     "write": [
-        1,
         3,
-        [6, 6],
         [7, 8],
         [16, 18],
         [21, 26],
         [31, 36],
     ],
     "bits": [
-        1,
         [7, 9],
-        [6, 6],
         {"addr": 2, "value": 0x81},
         {"addr": 3, "value": 17},
         {"addr": 4, "value": 17},
@@ -92,7 +90,7 @@ demo_config = {
     "uint16": [
         {"addr": 16, "value": 3124},
         {"addr": [17, 18], "value": 5678},
-        {"addr": [19, 20], "value": 14661, "action": "increment"},
+        {"addr": [19, 20], "value": 14661, "action": "random"},
     ],
     "uint32": [
         {"addr": [21, 22], "value": 3124},
